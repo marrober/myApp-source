@@ -1,4 +1,4 @@
-FROM quay.io/marrober/maven-build:latest
+FROM image-registry.openshift-image-registry.svc:5000/myapp-ci/maven-build:latest
 
 USER 1001 
 
